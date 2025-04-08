@@ -6,6 +6,7 @@ Then it set ups three schemas within the DB: bronze, silver and gold.
 
 WARNING: Running the script will permanently delete all the data of 'DataWarehouse' database if it already exists.
 */
+
 USE master;
 GO
 
