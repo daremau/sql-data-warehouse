@@ -3,11 +3,11 @@ IF OBJECT_ID('bronze.crm_cust_info') IS NOT NULL
 CREATE TABLE bronze.crm_cust_info (
 	cst_id INT,
 	cst_key NVARCHAR(50),
-	cst_fisrtname NVARCHAR(50),
+	cst_firstname NVARCHAR(50),
 	cst_lastname NVARCHAR(50),
 	cst_marital_status NVARCHAR(50),
 	cst_gndr NVARCHAR(50),
-	cst_create_data DATE
+	cst_create_date DATE
 );
 
 IF OBJECT_ID('bronze.crm_prd_info') IS NOT NULL
@@ -39,23 +39,23 @@ CREATE TABLE bronze.crm_sales_details (
 IF OBJECT_ID('bronze.erp_cust_az12') IS NOT NULL
 	DROP TABLE bronze.erp_cust_az12
 CREATE TABLE bronze.erp_cust_az12 (
-	CID NVARCHAR(50),
-	BDATE DATE,
-	GEN NVARCHAR(50)
+	cid NVARCHAR(50),
+	bdate DATE,
+	gen NVARCHAR(50)
 );
 
 IF OBJECT_ID('bronze.erp_loc_a101') IS NOT NULL
 	DROP TABLE bronze.erp_loc_a101
 CREATE TABLE bronze.erp_loc_a101 (
-	CID NVARCHAR(50),
-	CNTRY NVARCHAR(50)
+	cid NVARCHAR(50),
+	cntry NVARCHAR(50)
 );
 
 IF OBJECT_ID('bronze.erp_px_cat_g1v2') IS NOT NULL
 	DROP TABLE bronze.erp_px_cat_g1v2
 CREATE TABLE bronze.erp_px_cat_g1v2 (
-	ID NVARCHAR(50),
-	CAT NVARCHAR(50),
-	SUBCAT NVARCHAR(50),
-	MAINTENANCE NVARCHAR(50)
+	id NVARCHAR(50),
+	cat NVARCHAR(50),
+	subcat NVARCHAR(50),
+	maintenance NVARCHAR(50)
 );
