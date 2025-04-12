@@ -32,5 +32,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 #### Data Integration
 ![Data Integration](docs/data_integration.png)
 
+#### Data Flow
+![Data Flow](docs/data_flow.png)
+
 ####  Data Model for Gold Layer
 ![Data Model](docs/data_model.png)
